@@ -16,6 +16,11 @@ const HeroSection = () => {
             Премиальная керамическая кружка с персональным брендингом. Идеальна
             для кофе, чая и создания особой атмосферы.
           </p>
+          <div className="text-center lg:text-left">
+            <div className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-4">
+              Презентация продукта
+            </div>
+          </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Button
               size="lg"
