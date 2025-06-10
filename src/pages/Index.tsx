@@ -17,7 +17,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div>
       {photos.map((photo, index) => (
         <PhotoSection key={index} imageUrl={photo.url} alt={photo.alt} />
       ))}
